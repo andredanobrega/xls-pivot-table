@@ -1,7 +1,7 @@
 file_parameters:
-  path: C:/Users/cs341440/Downloads/
+  xls_path: files
+  xlsx_path: files_xlsx
   filename: vendas-combustiveis-m3
-  format: .xls
   worksheet: Plan1
   rows:
     - ANO
@@ -21,6 +21,7 @@ file_parameters:
     - Out
     - Nov
     - Dez
+
 maps:
   uf:
     ACRE: AC
@@ -69,9 +70,4 @@ maps:
     Out: 10
     Nov: 11
     Dez: 12
-xls_parameters:
-  row    : 1
-  column : 2
-  filter : 3
-  values : 4
         
