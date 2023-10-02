@@ -1,0 +1,77 @@
+file_parameters:
+  path: C:/Users/cs341440/Downloads/
+  filename: vendas-combustiveis-m3
+  format: .xls
+  worksheet: Plan1
+  rows:
+    - ANO
+    - COMBUSTÍVEL
+    - UNIDADE
+    - ESTADO
+  columns:
+    - Jan
+    - Fev
+    - Mar
+    - Abr
+    - Mai
+    - Jun
+    - Jul
+    - Ago
+    - Set
+    - Out
+    - Nov
+    - Dez
+maps:
+  uf:
+    ACRE: AC
+    ALAGOAS: AL
+    AMAPÁ: AP
+    AMAZONAS: AM
+    BAHIA: BA
+    CEARÁ: CE
+    DISTRITO FEDERAL: DF
+    ESPÍRITO SANTO: ES
+    GOIÁS: GO
+    MARANHÃO: MA
+    MATO GROSSO: MT
+    MATO GROSSO DO SUL: MS
+    MINAS GERAIS: MG
+    PARÁ: PA
+    PARAÍBA: PB
+    PARANÁ: PR
+    PERNAMBUCO: PE
+    PIAUÍ: PI
+    RIO DE JANEIRO: RJ
+    RIO GRANDE DO NORTE: RN
+    RIO GRANDE DO SUL: RS
+    RONDÔNIA: RO
+    RORAIMA: RR
+    SANTA CATARINA: SC
+    SÃO PAULO: SP
+    SERGIPE: SE
+    TOCANTINS: TO     
+  columns:
+    ano: year
+    estado: uf
+    combustivel: product
+    unidade: unit
+    total: volume
+  month:
+    Jan: 1
+    Fev: 2
+    Mar: 3
+    Abr: 4
+    Mai: 5
+    Jun: 6
+    Jul: 7
+    Ago: 8
+    Set: 9
+    Out: 10
+    Nov: 11
+    Dez: 12
+xls_parameters:
+  row    : 1
+  column : 2
+  filter : 3
+  values : 4
+        
