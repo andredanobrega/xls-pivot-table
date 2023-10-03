@@ -1,7 +1,7 @@
 file_parameters:
   xls_path: files
   xlsx_path: files_xlsx
-  filename: vendas-combustiveis-m3
+  filename: vendas-combustiveis-m3.xls
   worksheet: Plan1
   rows:
     - ANO
