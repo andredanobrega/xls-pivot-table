@@ -1,7 +1,8 @@
 file_parameters:
-  xls_path: files
-  xlsx_path: files_xlsx
-  filename: vendas-combustiveis-m3.xls
+  path: in/
+  out_path: out/
+  filename: vendas-combustiveis-m3
+  format: .xls
   worksheet: Plan1
   rows:
     - ANO
@@ -21,7 +22,17 @@ file_parameters:
     - Out
     - Nov
     - Dez
-
+  pivot_tables:
+    - Tabela dinâmica1
+    - Tabela dinâmica3
+  pivot_table_reference:
+      Tabela dinâmica1: 'Vendas, pelas distribuidoras¹, dos derivados combustíveis de petróleo por Unidade da Federação e produto - 2000-2020 (m3)'
+      Tabela dinâmica3: 'Vendas, pelas distribuidoras¹, de óleo diesel por tipo e Unidade da Federação - 2013-2020 (m3)'
+output_file_parameters:
+  path: output_parquet/
+  file_name:
+    Tabela dinâmica1: oil_sales
+    Tabela dinâmica3: diesel_sales
 maps:
   uf:
     ACRE: AC
@@ -70,4 +81,9 @@ maps:
     Out: 10
     Nov: 11
     Dez: 12
+xls_parameters:
+  row    : 1
+  column : 2
+  filter : 3
+  values : 4
         
